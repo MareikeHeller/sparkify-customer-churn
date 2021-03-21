@@ -1,10 +1,12 @@
 # Sparkify User Churn
 1. [Installation](#installation)
-2. [Objective](#objective)
+2. [Objective and Motivation](#objective-and-motivation)
 3. [Results on a Small Dataset](#results-on-a-small-dataset)
 4. [Results on a Medium Dataset](#results-on-a-medium-dataset)
 5. [File Descriptions](#file-descriptions)
 6. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
+
+Find the medium blogpost to this project here: [I came, I listened, I churned](https://mareikeheller.medium.com/i-came-i-listened-i-churned-ac6f5d284ba7).
 
 ## Installation
 The code was developed using Python 3.6.3. Necessary packages beyond the Python Standard Library are:
@@ -27,7 +29,7 @@ The environment can be installed using [requirements.txt](https://github.com/Mar
 
 The environment can be installed using [requirements_medium.txt](https://github.com/MareikeHeller/sparkify-customer-churn/blob/main/requirements_medium.txt).
 
-## Objective
+## Objective and Motivation
 This project tackles the **prediction of user churn** after data wrangling, exploratory data analysis, feature engineering as well as modeling and tuning different machine learning classification algorithms. The broader context involves the **cluster-computing framework Spark** in order to expand the methods to **big data** using the Spark ML DataFrame-based API.
 
 The project uses datasets from a simulated audio streaming service provider **Sparkify** containing events from user interaction with their product. A small subset of events is used in this notebook to develop the methods prior to deployment in the cloud.
