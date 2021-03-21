@@ -1,1 +1,1 @@
-# sparkify-customer-churn
+# Sparkify User Churn
